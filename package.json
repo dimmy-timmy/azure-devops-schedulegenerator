@@ -1,0 +1,24 @@
+{
+  "name": "azure-devops-schedulegenerator",
+  "version": "1.0.0",
+  "description": "Trigger schedule generator for Azure Devops pipelines from cron pattern",
+  "main": "index.js",
+  "dependencies": {
+    "cron-parser": "^2.13.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node index.js \"* */10 * * * *\""
+  },
+  "keywords": [
+    "azure",
+    "devops",
+    "cron",
+    "schedule",
+    "trigger"
+  ],
+  "author": "Dzmitry Valadziankou",
+  "license": "MIT"
+}
